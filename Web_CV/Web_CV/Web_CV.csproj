@@ -1760,6 +1760,8 @@
     <Content Include="Dosyalar\vendor\jquery\jquery.slim.min.js" />
     <Content Include="GuncelStyle.css" />
     <Content Include="Hakkimda.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="LoginCSS.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -1928,6 +1930,13 @@
     </Compile>
     <Compile Include="Hakkimda.aspx.designer.cs">
       <DependentUpon>Hakkimda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
